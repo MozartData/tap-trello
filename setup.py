@@ -10,10 +10,10 @@ setup(
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_trello"],
     install_requires=[
-        "singer-python==5.9.0",
-        "requests==2.23.0",
-        "requests-oauthlib==1.3.0",
-        "backoff==1.8.0"
+        "singer-python>=5.9.0",
+        "requests>=2.23.0",
+        "requests-oauthlib>=1.3.0",
+        "backoff>=1.8.0"
     ],
     extras_require={
         'dev': [
